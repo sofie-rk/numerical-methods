@@ -1,2 +1,2 @@
 # numerical-methods
-Useful numerical methods code
+Useful numerical methods
