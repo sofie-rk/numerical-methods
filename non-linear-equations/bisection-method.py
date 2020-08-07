@@ -2,9 +2,16 @@
 #
 # Other names: Interval Halving Method, Binary Search Method
 # 
-# Finds a root f(x)=0
+# Finds a solution for f(x)=0
+
+# Given an interval [x_lower, x_upper], check if f has a root in the interval,
+# divide it in two, check in which of the two halves the root is.
+# Divide intervals in two until a root is located with sufficient accurancy.
 
 # Starting by guessing a interval [x_lower x_upper] where the solution might be
+
+# If f(x_lower)*f(x_mid) <= 0, the root is located between x_lower and x_mid
+# If f(x_upper)*f(x_mid) <= 0, the root is located between x_mid and x_upper
 
 import numpy as np
 import matplotlib.pyplot as plt
