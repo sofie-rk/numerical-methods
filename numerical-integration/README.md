@@ -31,7 +31,3 @@ Q = (b-a)/6 * (f(a) + 4*f((a+b)/2) + f(b))
 w_0 = (b-a)/6   w_1 = 4*(b-a)/6   w_2 = (b-a)/6
 x_0 = a     x_1 = (a+b)/2       x_2 = b
 
-
-
-
-## Gauss Lobatto
